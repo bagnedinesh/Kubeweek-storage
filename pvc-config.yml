@@ -4,7 +4,7 @@ metadata:
   name: my-claim
 spec:
   accessModes:
-    - ReadWriteOnce
-   resources:
-      requests:
-        storage: 3Gi
+    - ReadWriteMany
+  resources:
+    requests:
+      storage: 3Gi
